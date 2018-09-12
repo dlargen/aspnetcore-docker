@@ -1,0 +1,14 @@
+E:\projects\docker-web\src\webui\bin\Debug\netcoreapp2.1\webui.deps.json
+E:\projects\docker-web\src\webui\bin\Debug\netcoreapp2.1\webui.runtimeconfig.json
+E:\projects\docker-web\src\webui\bin\Debug\netcoreapp2.1\webui.runtimeconfig.dev.json
+E:\projects\docker-web\src\webui\bin\Debug\netcoreapp2.1\webui.dll
+E:\projects\docker-web\src\webui\bin\Debug\netcoreapp2.1\webui.pdb
+E:\projects\docker-web\src\webui\obj\Debug\netcoreapp2.1\webui.csprojAssemblyReference.cache
+E:\projects\docker-web\src\webui\obj\Debug\netcoreapp2.1\webui.csproj.CoreCompileInputs.cache
+E:\projects\docker-web\src\webui\obj\Debug\netcoreapp2.1\webui.RazorAssemblyInfo.cache
+E:\projects\docker-web\src\webui\obj\Debug\netcoreapp2.1\webui.RazorAssemblyInfo.cs
+E:\projects\docker-web\src\webui\obj\Debug\netcoreapp2.1\webui.AssemblyInfoInputs.cache
+E:\projects\docker-web\src\webui\obj\Debug\netcoreapp2.1\webui.AssemblyInfo.cs
+E:\projects\docker-web\src\webui\obj\Debug\netcoreapp2.1\webui.RazorTargetAssemblyInfo.cache
+E:\projects\docker-web\src\webui\obj\Debug\netcoreapp2.1\webui.dll
+E:\projects\docker-web\src\webui\obj\Debug\netcoreapp2.1\webui.pdb
