@@ -11,3 +11,17 @@ services:
         source: ./build
     ports:
       - "5000:80"
+    depends_on:
+      - db
+    links:
+      - db
+
+  db:
+    image: library/mysql:5.7.18
+    container_name: "aspnetcore_db"
+    ports:
+      - 13309:3306
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
+    volumes:
+       - ./src/database/Scripts:/docker-entrypoint-initdb.d

@@ -8,15 +8,3 @@ services:
       - .:/src
     working_dir: /src
     command: /bin/bash -c "dotnet restore ./docker-web.sln && dotnet publish ./docker-web.sln -c Release -o ./build"
-    depends_on:
-      - db
-    links:
-      - db
-
-  db:
-    image: library/mysql:5.7.18
-    container_name: "aspnetcore_db"
-    ports:
-      - 13309:3306
-    environment:
-      MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
