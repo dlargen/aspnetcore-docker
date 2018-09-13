@@ -17,4 +17,10 @@ Fun project for learning asp.net core built for containers.
 		1. dotnet run --project .\src\webui\webui.csproj
 		1. Navigate to http://localhost:5000
 		1. Ctrl - C
+1. Create a container to run your webui and a container to run the db
+	1. .\scripts\build.ps1
+1. Run the webui container and the db container
+	1. .\scripts\run.ps1
+1. Test your container application
+	1. Navigate to http://localhost:5000
 		
