@@ -10,6 +10,9 @@ Fun project for learning asp.net core built for containers.
 		1. Powershell
 		1. C#
 		1. Docker (Installed with Code)
+	1. Update Visual Studio Code Preferences
+		1. Find the omnisharp.path property and add it to your user settings and configure it as follows:
+			1. "omnisharp.path": "latest"
 1. Clone this REPO in Visual Studio Code
 1. Create a container to build the .netcore application and optionally run a local test of the app.  Can be skipped because we will be running the application in a container.
 	1. .\scripts\build.ci.ps1
