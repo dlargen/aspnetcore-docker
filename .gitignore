@@ -11,3 +11,6 @@ bld/
 [Oo]bj/
 *.dll
 *.pdb
+*.cache
+logs/
+internal_logs/

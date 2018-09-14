@@ -10,6 +10,7 @@ Fun project for learning asp.net core built for containers.
 		1. Powershell
 		1. C#
 		1. Docker (Installed with Code)
+		1. NuGet Package Manager
 	1. Update Visual Studio Code Preferences
 		1. Find the omnisharp.path property and add it to your user settings and configure it as follows:
 			1. "omnisharp.path": "latest"
