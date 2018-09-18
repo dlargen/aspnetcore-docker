@@ -14,3 +14,7 @@ bld/
 *.cache
 logs/
 internal_logs/
+src/webui/obj/webui.csproj.nuget.cache
+src/webui/obj/webui.csproj.nuget.g.props
+src/webui/obj/Debug/netcoreapp2.1/webui.assets.cache
+src/webui/obj/Debug/netcoreapp2.1/webui.csproj.CoreCompileInputs.cache

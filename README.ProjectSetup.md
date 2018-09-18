@@ -43,3 +43,27 @@ This outlines steps I followed mixed wth the steps from the guide.  Mostly shows
 		```
 	1. From the command Pallente Ctrl+Shift+P use NugetPackage Manager: Add Package to add the following
 		1. NLog.Extensions.Logging 
+1. Part 4: https://code-maze.com/net-core-web-development-part4/
+	1. Create Entities Class Library (.NET Core) and reference it in the main project
+		```powershell
+		dotnet new classlib -f netcoreapp2.1 -n Entities -o .\src\Entities 
+		dotnet sln .\AccountOwnerServer.sln add .\src\Entities\Entities.csproj
+		dotnet add .\src\AccountOwnerServer\AccountOwnerServer.csproj reference .\src\Entities\Entities.csproj
+		```
+	1. In the main project add a nuget reference to the following frameworks:
+		1. Pomelo.EntityFrameworkCore.MySql
+	1. In the Entities project add a nuget reference to the following frameworks:
+		1. Microsoft.EntityFrameworkCore
+	1. Create Repository Class Library (.NET Core) and required references
+		```powershell
+		dotnet new classlib -f netcoreapp2.1 -n Repository -o .\src\Repository 
+		dotnet sln .\AccountOwnerServer.sln add .\src\Repository\Repository.csproj
+		dotnet add .\src\Repository\Repository.csproj reference .\src\Contracts\Contracts.csproj .\src\Entities\Entities.csproj
+		dotnet add .\src\AccountOwnerServer\AccountOwnerServer.csproj reference .\src\Repository\Repository.csproj
+		```
+	1. In the Repository project add a nuget reference to the following framework(s):
+		1. Microsoft.EntityFrameworkCore
+	1. In the Contracts project add a reference to the entities project
+		```powershell
+		dotnet add .\src\Contracts\Contracts.csproj reference .\src\Entities\Entities.csproj
+		```

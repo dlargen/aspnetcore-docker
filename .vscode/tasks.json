@@ -10,6 +10,16 @@
                 "${workspaceFolder}/src/webui/webui.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "buildAccountOwner",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/AccountOwnerServer/AccountOwnerServer.csproj"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }
